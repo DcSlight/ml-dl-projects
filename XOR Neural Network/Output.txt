@@ -1,0 +1,1426 @@
+"C:\Program Files\Python311\python.exe" "C:\Users\idan.noyshul\PycharmProjects\exe2\exe_2 (1).py" 
+cuda:0
+
+-------------------------------------------------------------------------
+Running Configuration 1: {'num_hidden': 2, 'bypass': True, 'l_rate': 0.1}
+
+
+Starting Experiment 1...
+
+Epoch 0, Train Loss: 2.3831753730773926, Val Loss: 2.340742588043213
+Epoch 2000, Train Loss: 0.041475892066955566, Val Loss: 0.07191553711891174
+Experiment 1: Stopping early: Validation loss < 0.2 at epoch 3903
+
+Starting Experiment 2...
+
+Epoch 0, Train Loss: 2.6949260234832764, Val Loss: 2.8191323280334473
+Epoch 2000, Train Loss: 0.04162545129656792, Val Loss: 0.07100424915552139
+Experiment 2: Stopping early: Validation loss < 0.2 at epoch 3767
+
+Starting Experiment 3...
+
+Epoch 0, Train Loss: 1.7716768980026245, Val Loss: 1.5602408647537231
+Epoch 2000, Train Loss: 0.031028471887111664, Val Loss: 0.05440119653940201
+Experiment 3: Stopping early: Validation loss < 0.2 at epoch 3350
+
+Starting Experiment 4...
+
+Epoch 0, Train Loss: 1.6306555271148682, Val Loss: 1.5895624160766602
+Epoch 2000, Train Loss: 0.02619997411966324, Val Loss: 0.040380388498306274
+Experiment 4: Stopping early: Validation loss < 0.2 at epoch 2928
+
+Starting Experiment 5...
+
+Epoch 0, Train Loss: 2.261413335800171, Val Loss: 2.233813762664795
+Epoch 2000, Train Loss: 0.03987455368041992, Val Loss: 0.07175308465957642
+Experiment 5: Stopping early: Validation loss < 0.2 at epoch 3662
+
+Starting Experiment 6...
+
+Epoch 0, Train Loss: 1.889569878578186, Val Loss: 1.9041717052459717
+Epoch 2000, Train Loss: 0.03522359952330589, Val Loss: 0.06233787536621094
+Experiment 6: Stopping early: Validation loss < 0.2 at epoch 3608
+
+Starting Experiment 7...
+
+Epoch 0, Train Loss: 1.0772696733474731, Val Loss: 1.105758786201477
+Epoch 2000, Train Loss: 0.03748459368944168, Val Loss: 0.0642169937491417
+Experiment 7: Stopping early: Validation loss < 0.2 at epoch 3603
+
+Starting Experiment 8...
+
+Epoch 0, Train Loss: 2.024944543838501, Val Loss: 1.9112656116485596
+Epoch 2000, Train Loss: 0.06368888914585114, Val Loss: 0.1007830798625946
+Epoch 4000, Train Loss: 0.02153782919049263, Val Loss: 0.04327773675322533
+Experiment 8: Stopping early: Validation loss < 0.2 at epoch 4205
+
+Starting Experiment 9...
+
+Epoch 0, Train Loss: 1.9055571556091309, Val Loss: 1.8090858459472656
+Epoch 2000, Train Loss: 0.04390416294336319, Val Loss: 0.0751723051071167
+Experiment 9: Stopping early: Validation loss < 0.2 at epoch 3740
+
+Starting Experiment 10...
+
+Epoch 0, Train Loss: 2.157698631286621, Val Loss: 2.0908191204071045
+Epoch 2000, Train Loss: 0.044073060154914856, Val Loss: 0.07542088627815247
+Experiment 10: Stopping early: Validation loss < 0.2 at epoch 3925
+
+Experiment Results Table:
+
+ Experiment  Mean Train Loss  Std Dev Train Loss  Epochs Until Stop  Final Train Loss  Final Val Loss
+          1         0.138259            0.208382               3903          0.015614        0.032744
+          2         0.171423            0.244220               3767          0.014917        0.030759
+          3         0.142182            0.206883               3350          0.014551        0.028649
+          4         0.168280            0.235184               2928          0.015360        0.025521
+          5         0.180097            0.246589               3662          0.016318        0.036313
+          6         0.124393            0.186951               3608          0.015111        0.031134
+          7         0.166212            0.229744               3603          0.014660        0.029186
+          8         0.207540            0.260190               4205          0.020143        0.041110
+          9         0.146319            0.206840               3740          0.020049        0.040960
+         10         0.149685            0.216694               3925          0.017235        0.036015
+
+Summary Table (Percentage Std Dev and Mean):
+
+           Metric        Mean  Std Dev %
+Epochs Until Stop 3669.100000   9.446532
+ Final Train Loss    0.016396  12.862974
+   Final Val Loss    0.033239  15.747942
+
+Total Failures: 0
+
+-------------------------------------------------------------------------
+Running Configuration 2: {'num_hidden': 2, 'bypass': False, 'l_rate': 0.1}
+
+
+Starting Experiment 1...
+
+Epoch 0, Train Loss: 0.6933733224868774, Val Loss: 0.6985322833061218
+Epoch 2000, Train Loss: 0.019558165222406387, Val Loss: 0.028335027396678925
+Experiment 1: Stopping early: Validation loss < 0.2 at epoch 2618
+
+Starting Experiment 2...
+
+Epoch 0, Train Loss: 1.6237659454345703, Val Loss: 1.4193509817123413
+Epoch 2000, Train Loss: 0.36172038316726685, Val Loss: 0.4529949724674225
+Epoch 4000, Train Loss: 0.3515859842300415, Val Loss: 0.44044971466064453
+Epoch 6000, Train Loss: 0.34950610995292664, Val Loss: 0.43768510222435
+Epoch 8000, Train Loss: 0.3486306071281433, Val Loss: 0.43647414445877075
+Epoch 10000, Train Loss: 0.3481519818305969, Val Loss: 0.4357929229736328
+Epoch 12000, Train Loss: 0.3478515148162842, Val Loss: 0.4353553056716919
+Epoch 14000, Train Loss: 0.34764567017555237, Val Loss: 0.4350496530532837
+Epoch 16000, Train Loss: 0.347495973110199, Val Loss: 0.4348239004611969
+Epoch 18000, Train Loss: 0.34738272428512573, Val Loss: 0.43464988470077515
+Epoch 20000, Train Loss: 0.3472937345504761, Val Loss: 0.43451207876205444
+Epoch 22000, Train Loss: 0.34722208976745605, Val Loss: 0.43439924716949463
+Epoch 24000, Train Loss: 0.3471633195877075, Val Loss: 0.43430644273757935
+Epoch 26000, Train Loss: 0.3471141457557678, Val Loss: 0.43422731757164
+Epoch 28000, Train Loss: 0.34707239270210266, Val Loss: 0.434159517288208
+Epoch 30000, Train Loss: 0.34703654050827026, Val Loss: 0.4341011345386505
+Epoch 32000, Train Loss: 0.34700554609298706, Val Loss: 0.4340500831604004
+Epoch 34000, Train Loss: 0.34697815775871277, Val Loss: 0.43400493264198303
+Epoch 36000, Train Loss: 0.3469540476799011, Val Loss: 0.4339646100997925
+Epoch 38000, Train Loss: 0.34693288803100586, Val Loss: 0.43392884731292725
+The Experiment failed - After 40000 epochs 
+
+Starting Experiment 3...
+
+Epoch 0, Train Loss: 1.8050909042358398, Val Loss: 1.6659324169158936
+Epoch 2000, Train Loss: 0.3587568402290344, Val Loss: 0.449604868888855
+Epoch 4000, Train Loss: 0.35116711258888245, Val Loss: 0.439988911151886
+Epoch 6000, Train Loss: 0.34934788942337036, Val Loss: 0.437523752450943
+Epoch 8000, Train Loss: 0.34854769706726074, Val Loss: 0.43639707565307617
+Epoch 10000, Train Loss: 0.3481006622314453, Val Loss: 0.43574944138526917
+Epoch 12000, Train Loss: 0.3478164076805115, Val Loss: 0.4353284537792206
+Epoch 14000, Train Loss: 0.3476201295852661, Val Loss: 0.4350321888923645
+Epoch 16000, Train Loss: 0.3474765419960022, Val Loss: 0.43481194972991943
+Epoch 18000, Train Loss: 0.34736692905426025, Val Loss: 0.43464195728302
+Epoch 20000, Train Loss: 0.3472810685634613, Val Loss: 0.4345066547393799
+Epoch 22000, Train Loss: 0.3472115397453308, Val Loss: 0.4343956410884857
+Epoch 24000, Train Loss: 0.34715431928634644, Val Loss: 0.43430376052856445
+Epoch 26000, Train Loss: 0.34710657596588135, Val Loss: 0.4342254400253296
+Epoch 28000, Train Loss: 0.34706586599349976, Val Loss: 0.4341582953929901
+Epoch 30000, Train Loss: 0.3470306396484375, Val Loss: 0.4341009259223938
+Epoch 32000, Train Loss: 0.3470000922679901, Val Loss: 0.4340497851371765
+Epoch 34000, Train Loss: 0.34697335958480835, Val Loss: 0.43400484323501587
+Epoch 36000, Train Loss: 0.3469499945640564, Val Loss: 0.4339650571346283
+Epoch 38000, Train Loss: 0.346929132938385, Val Loss: 0.43392911553382874
+The Experiment failed - After 40000 epochs 
+
+Starting Experiment 4...
+
+Epoch 0, Train Loss: 1.557692527770996, Val Loss: 1.404893159866333
+Epoch 2000, Train Loss: 0.025321736931800842, Val Loss: 0.036611407995224
+Experiment 4: Stopping early: Validation loss < 0.2 at epoch 2922
+
+Starting Experiment 5...
+
+Epoch 0, Train Loss: 1.7702345848083496, Val Loss: 1.6104191541671753
+Epoch 2000, Train Loss: 0.0451422855257988, Val Loss: 0.06245405599474907
+Experiment 5: Stopping early: Validation loss < 0.2 at epoch 3364
+
+Starting Experiment 6...
+
+Epoch 0, Train Loss: 1.5582447052001953, Val Loss: 1.3995070457458496
+Epoch 2000, Train Loss: 0.358228862285614, Val Loss: 0.44646361470222473
+Epoch 4000, Train Loss: 0.3511088788509369, Val Loss: 0.4387627840042114
+Epoch 6000, Train Loss: 0.34933698177337646, Val Loss: 0.43675050139427185
+Epoch 8000, Train Loss: 0.3485475778579712, Val Loss: 0.43582630157470703
+Epoch 10000, Train Loss: 0.3481038808822632, Val Loss: 0.43529483675956726
+Epoch 12000, Train Loss: 0.3478206992149353, Val Loss: 0.4349488615989685
+Epoch 14000, Train Loss: 0.34762459993362427, Val Loss: 0.4347057342529297
+Epoch 16000, Train Loss: 0.3474809527397156, Val Loss: 0.43452513217926025
+Epoch 18000, Train Loss: 0.34737148880958557, Val Loss: 0.43438541889190674
+Epoch 20000, Train Loss: 0.34728509187698364, Val Loss: 0.4342744052410126
+Epoch 22000, Train Loss: 0.34721535444259644, Val Loss: 0.4341832995414734
+Epoch 24000, Train Loss: 0.3471580743789673, Val Loss: 0.43410763144493103
+Epoch 26000, Train Loss: 0.34710967540740967, Val Loss: 0.43404385447502136
+Epoch 28000, Train Loss: 0.3470688462257385, Val Loss: 0.43398910760879517
+Epoch 30000, Train Loss: 0.34703361988067627, Val Loss: 0.4339416027069092
+Epoch 32000, Train Loss: 0.34700295329093933, Val Loss: 0.4339001774787903
+Epoch 34000, Train Loss: 0.3469761312007904, Val Loss: 0.4338633716106415
+Epoch 36000, Train Loss: 0.34695228934288025, Val Loss: 0.4338308274745941
+Epoch 38000, Train Loss: 0.34693121910095215, Val Loss: 0.4338015615940094
+The Experiment failed - After 40000 epochs 
+
+Starting Experiment 7...
+
+Epoch 0, Train Loss: 2.0491058826446533, Val Loss: 1.860003113746643
+Epoch 2000, Train Loss: 0.037409454584121704, Val Loss: 0.054168932139873505
+Experiment 7: Stopping early: Validation loss < 0.2 at epoch 3260
+
+Starting Experiment 8...
+
+Epoch 0, Train Loss: 1.3690731525421143, Val Loss: 1.1906684637069702
+Epoch 2000, Train Loss: 0.36000287532806396, Val Loss: 0.4489673376083374
+Epoch 4000, Train Loss: 0.35138773918151855, Val Loss: 0.43954265117645264
+Epoch 6000, Train Loss: 0.34944552183151245, Val Loss: 0.4372265934944153
+Epoch 8000, Train Loss: 0.34860527515411377, Val Loss: 0.43617671728134155
+Epoch 10000, Train Loss: 0.34814009070396423, Val Loss: 0.43557581305503845
+Epoch 12000, Train Loss: 0.3478456139564514, Val Loss: 0.435185045003891
+Epoch 14000, Train Loss: 0.3476428687572479, Val Loss: 0.43491026759147644
+Epoch 16000, Train Loss: 0.347494900226593, Val Loss: 0.434706449508667
+Epoch 18000, Train Loss: 0.34738245606422424, Val Loss: 0.4345487356185913
+Epoch 20000, Train Loss: 0.34729403257369995, Val Loss: 0.43442246317863464
+Epoch 22000, Train Loss: 0.34722304344177246, Val Loss: 0.43432021141052246
+Epoch 24000, Train Loss: 0.3471643328666687, Val Loss: 0.4342343211174011
+Epoch 26000, Train Loss: 0.34711533784866333, Val Loss: 0.43416181206703186
+Epoch 28000, Train Loss: 0.34707361459732056, Val Loss: 0.43409955501556396
+Epoch 30000, Train Loss: 0.3470378518104553, Val Loss: 0.43404579162597656
+Epoch 32000, Train Loss: 0.3470066785812378, Val Loss: 0.4339987337589264
+Epoch 34000, Train Loss: 0.346979558467865, Val Loss: 0.43395712971687317
+Epoch 36000, Train Loss: 0.3469553291797638, Val Loss: 0.4339198172092438
+Epoch 38000, Train Loss: 0.3469340205192566, Val Loss: 0.4338861405849457
+The Experiment failed - After 40000 epochs 
+
+Starting Experiment 9...
+
+Epoch 0, Train Loss: 1.0657610893249512, Val Loss: 0.9396400451660156
+Epoch 2000, Train Loss: 0.05870787054300308, Val Loss: 0.08332469314336777
+Experiment 9: Stopping early: Validation loss < 0.2 at epoch 3511
+
+Starting Experiment 10...
+
+Epoch 0, Train Loss: 1.7621402740478516, Val Loss: 1.5778919458389282
+Epoch 2000, Train Loss: 0.2560277283191681, Val Loss: 0.32325002551078796
+Experiment 10: Stopping early: Validation loss < 0.2 at epoch 3943
+
+Starting Experiment 11...
+
+Epoch 0, Train Loss: 0.9802320599555969, Val Loss: 0.8767231702804565
+Epoch 2000, Train Loss: 0.3708524703979492, Val Loss: 0.46644920110702515
+Experiment 11: Stopping early: Validation loss < 0.2 at epoch 3993
+
+Starting Experiment 12...
+
+Epoch 0, Train Loss: 1.597437858581543, Val Loss: 1.4872770309448242
+Epoch 2000, Train Loss: 0.02208142727613449, Val Loss: 0.03160679340362549
+Experiment 12: Stopping early: Validation loss < 0.2 at epoch 2755
+
+Starting Experiment 13...
+
+Epoch 0, Train Loss: 1.1858317852020264, Val Loss: 1.0915493965148926
+Epoch 2000, Train Loss: 0.022255076095461845, Val Loss: 0.032173749059438705
+Experiment 13: Stopping early: Validation loss < 0.2 at epoch 2782
+
+Starting Experiment 14...
+
+Epoch 0, Train Loss: 1.6387410163879395, Val Loss: 1.4318755865097046
+Epoch 2000, Train Loss: 0.36153361201286316, Val Loss: 0.4463171660900116
+Epoch 4000, Train Loss: 0.3515186309814453, Val Loss: 0.4381498694419861
+Epoch 6000, Train Loss: 0.3494716286659241, Val Loss: 0.4363071918487549
+Epoch 8000, Train Loss: 0.3486095070838928, Val Loss: 0.4354906678199768
+Epoch 10000, Train Loss: 0.34813764691352844, Val Loss: 0.4350276589393616
+Epoch 12000, Train Loss: 0.3478408753871918, Val Loss: 0.4347279965877533
+Epoch 14000, Train Loss: 0.34763768315315247, Val Loss: 0.4345182776451111
+Epoch 16000, Train Loss: 0.3474896550178528, Val Loss: 0.43436264991760254
+Epoch 18000, Train Loss: 0.34737735986709595, Val Loss: 0.4342423677444458
+Epoch 20000, Train Loss: 0.34728947281837463, Val Loss: 0.434146523475647
+Epoch 22000, Train Loss: 0.3472185730934143, Val Loss: 0.43406814336776733
+Epoch 24000, Train Loss: 0.3471599817276001, Val Loss: 0.4340028166770935
+Epoch 26000, Train Loss: 0.3471112847328186, Val Loss: 0.43394768238067627
+Epoch 28000, Train Loss: 0.34706997871398926, Val Loss: 0.4339008629322052
+Epoch 30000, Train Loss: 0.3470343351364136, Val Loss: 0.4338594973087311
+Epoch 32000, Train Loss: 0.3470034599304199, Val Loss: 0.4338235557079315
+Epoch 34000, Train Loss: 0.3469763398170471, Val Loss: 0.4337919056415558
+Epoch 36000, Train Loss: 0.3469527065753937, Val Loss: 0.4337635934352875
+Epoch 38000, Train Loss: 0.3469313979148865, Val Loss: 0.4337384104728699
+The Experiment failed - After 40000 epochs 
+
+Starting Experiment 15...
+
+Epoch 0, Train Loss: 1.143975019454956, Val Loss: 1.018437147140503
+Epoch 2000, Train Loss: 0.030669469386339188, Val Loss: 0.04448666423559189
+Experiment 15: Stopping early: Validation loss < 0.2 at epoch 3106
+
+Experiment Results Table:
+
+ Experiment  Mean Train Loss  Std Dev Train Loss  Epochs Until Stop  Final Train Loss  Final Val Loss
+          1         0.171647            0.223814               2618          0.013148        0.019420
+          4         0.218427            0.254617               2922          0.013037        0.019446
+          5         0.290127            0.297640               3364          0.013168        0.019398
+          7         0.252855            0.263760               3260          0.012880        0.019426
+          9         0.284320            0.275342               3511          0.012893        0.019434
+         10         0.344815            0.306071               3943          0.013080        0.019371
+         11         0.331355            0.287997               3993          0.012858        0.019432
+         12         0.204341            0.257613               2755          0.013231        0.019441
+         13         0.199471            0.245077               2782          0.013078        0.019380
+         15         0.237233            0.257372               3106          0.012922        0.019439
+
+Summary Table (Percentage Std Dev and Mean):
+
+           Metric        Mean  Std Dev %
+Epochs Until Stop 3225.400000  14.973658
+ Final Train Loss    0.013029   1.026049
+   Final Val Loss    0.019419   0.137214
+
+Total Failures: 5
+
+-------------------------------------------------------------------------
+Running Configuration 3: {'num_hidden': 4, 'bypass': True, 'l_rate': 0.1}
+
+
+Starting Experiment 1...
+
+Epoch 0, Train Loss: 2.643101215362549, Val Loss: 2.430372476577759
+Epoch 2000, Train Loss: 0.023096580058336258, Val Loss: 0.04325798153877258
+Experiment 1: Stopping early: Validation loss < 0.2 at epoch 3017
+
+Starting Experiment 2...
+
+Epoch 0, Train Loss: 3.472745418548584, Val Loss: 3.322990655899048
+Epoch 2000, Train Loss: 0.026614878326654434, Val Loss: 0.050103090703487396
+Experiment 2: Stopping early: Validation loss < 0.2 at epoch 3257
+
+Starting Experiment 3...
+
+Epoch 0, Train Loss: 1.6382888555526733, Val Loss: 1.432826042175293
+Epoch 2000, Train Loss: 0.024350862950086594, Val Loss: 0.04175694286823273
+Experiment 3: Stopping early: Validation loss < 0.2 at epoch 2984
+
+Starting Experiment 4...
+
+Epoch 0, Train Loss: 1.8738765716552734, Val Loss: 1.6779636144638062
+Epoch 2000, Train Loss: 0.03166912496089935, Val Loss: 0.056965138763189316
+Experiment 4: Stopping early: Validation loss < 0.2 at epoch 3485
+
+Starting Experiment 5...
+
+Epoch 0, Train Loss: 2.3447344303131104, Val Loss: 2.169973373413086
+Epoch 2000, Train Loss: 0.030472971498966217, Val Loss: 0.05361928045749664
+Experiment 5: Stopping early: Validation loss < 0.2 at epoch 3400
+
+Starting Experiment 6...
+
+Epoch 0, Train Loss: 2.6526670455932617, Val Loss: 2.3798274993896484
+Epoch 2000, Train Loss: 0.046877630054950714, Val Loss: 0.08008982986211777
+Epoch 4000, Train Loss: 0.015265818685293198, Val Loss: 0.03339589387178421
+Experiment 6: Stopping early: Validation loss < 0.2 at epoch 4044
+
+Starting Experiment 7...
+
+Epoch 0, Train Loss: 3.1519010066986084, Val Loss: 2.8857064247131348
+Epoch 2000, Train Loss: 0.021390892565250397, Val Loss: 0.035502709448337555
+Experiment 7: Stopping early: Validation loss < 0.2 at epoch 2825
+
+Starting Experiment 8...
+
+Epoch 0, Train Loss: 2.0860822200775146, Val Loss: 1.8880406618118286
+Epoch 2000, Train Loss: 0.022590700536966324, Val Loss: 0.04433146119117737
+Experiment 8: Stopping early: Validation loss < 0.2 at epoch 3069
+
+Starting Experiment 9...
+
+Epoch 0, Train Loss: 4.214844703674316, Val Loss: 4.233426094055176
+Epoch 2000, Train Loss: 0.02147367037832737, Val Loss: 0.04105369746685028
+Experiment 9: Stopping early: Validation loss < 0.2 at epoch 2951
+
+Starting Experiment 10...
+
+Epoch 0, Train Loss: 3.715773105621338, Val Loss: 3.8352789878845215
+Epoch 2000, Train Loss: 0.02020289935171604, Val Loss: 0.03416853025555611
+Experiment 10: Stopping early: Validation loss < 0.2 at epoch 2665
+
+Experiment Results Table:
+
+ Experiment  Mean Train Loss  Std Dev Train Loss  Epochs Until Stop  Final Train Loss  Final Val Loss
+          1         0.154104            0.229737               3017          0.012567        0.026226
+          2         0.169108            0.253637               3257          0.012060        0.026185
+          3         0.150638            0.219751               2984          0.013910        0.025871
+          4         0.105828            0.159723               3485          0.014539        0.030109
+          5         0.132416            0.200424               3400          0.013493        0.026908
+          6         0.170828            0.241062               4044          0.015007        0.032952
+          7         0.182619            0.263218               2825          0.012564        0.022476
+          8         0.107337            0.169740               3069          0.012409        0.027091
+          9         0.131516            0.237819               2951          0.012297        0.025928
+         10         0.130539            0.229742               2665          0.013996        0.025030
+
+Summary Table (Percentage Std Dev and Mean):
+
+           Metric        Mean  Std Dev %
+Epochs Until Stop 3169.700000  12.504100
+ Final Train Loss    0.013284   7.837580
+   Final Val Loss    0.026878  10.595444
+
+Total Failures: 0
+
+-------------------------------------------------------------------------
+Running Configuration 4: {'num_hidden': 4, 'bypass': False, 'l_rate': 0.1}
+
+
+Starting Experiment 1...
+
+Epoch 0, Train Loss: 2.342257499694824, Val Loss: 2.0825929641723633
+Epoch 2000, Train Loss: 0.024075947701931, Val Loss: 0.03775870427489281
+Experiment 1: Stopping early: Validation loss < 0.2 at epoch 2970
+
+Starting Experiment 2...
+
+Epoch 0, Train Loss: 2.0325329303741455, Val Loss: 1.724836826324463
+Epoch 2000, Train Loss: 0.022084753960371017, Val Loss: 0.029718175530433655
+Experiment 2: Stopping early: Validation loss < 0.2 at epoch 2676
+
+Starting Experiment 3...
+
+Epoch 0, Train Loss: 2.2843222618103027, Val Loss: 2.099766492843628
+Epoch 2000, Train Loss: 0.019437693059444427, Val Loss: 0.02929288148880005
+Experiment 3: Stopping early: Validation loss < 0.2 at epoch 2710
+
+Starting Experiment 4...
+
+Epoch 0, Train Loss: 2.371549129486084, Val Loss: 2.056072235107422
+Epoch 2000, Train Loss: 0.35936009883880615, Val Loss: 0.44900068640708923
+Epoch 4000, Train Loss: 0.030917122960090637, Val Loss: 0.04066602140665054
+Experiment 4: Stopping early: Validation loss < 0.2 at epoch 5035
+
+Starting Experiment 5...
+
+Epoch 0, Train Loss: 2.510730028152466, Val Loss: 2.1564438343048096
+Epoch 2000, Train Loss: 0.3592602014541626, Val Loss: 0.4475269317626953
+Epoch 4000, Train Loss: 0.018723882734775543, Val Loss: 0.025386866182088852
+Experiment 5: Stopping early: Validation loss < 0.2 at epoch 4429
+
+Starting Experiment 6...
+
+Epoch 0, Train Loss: 2.8051130771636963, Val Loss: 2.6095948219299316
+Epoch 2000, Train Loss: 0.025325044989585876, Val Loss: 0.034468598663806915
+Experiment 6: Stopping early: Validation loss < 0.2 at epoch 2893
+
+Starting Experiment 7...
+
+Epoch 0, Train Loss: 1.534580111503601, Val Loss: 1.319168210029602
+Epoch 2000, Train Loss: 0.01782393269240856, Val Loss: 0.02765955589711666
+Experiment 7: Stopping early: Validation loss < 0.2 at epoch 2649
+
+Starting Experiment 8...
+
+Epoch 0, Train Loss: 2.916024684906006, Val Loss: 2.6763315200805664
+Epoch 2000, Train Loss: 0.02376592345535755, Val Loss: 0.0330192968249321
+Experiment 8: Stopping early: Validation loss < 0.2 at epoch 2876
+
+Starting Experiment 9...
+
+Epoch 0, Train Loss: 2.3334217071533203, Val Loss: 2.019279718399048
+Epoch 2000, Train Loss: 0.3645268678665161, Val Loss: 0.4530966281890869
+Epoch 4000, Train Loss: 0.3529171943664551, Val Loss: 0.4406551420688629
+Epoch 6000, Train Loss: 0.3503214120864868, Val Loss: 0.4377783536911011
+Epoch 8000, Train Loss: 0.34920284152030945, Val Loss: 0.4365098476409912
+Epoch 10000, Train Loss: 0.3485846519470215, Val Loss: 0.4357954263687134
+Epoch 12000, Train Loss: 0.3481936454772949, Val Loss: 0.4353371560573578
+Epoch 14000, Train Loss: 0.3479246199131012, Val Loss: 0.4350173771381378
+Epoch 16000, Train Loss: 0.34772801399230957, Val Loss: 0.4347810447216034
+Epoch 18000, Train Loss: 0.34757769107818604, Val Loss: 0.4345983862876892
+Epoch 20000, Train Loss: 0.3474586606025696, Val Loss: 0.43445253372192383
+Epoch 22000, Train Loss: 0.34736132621765137, Val Loss: 0.4343324601650238
+Epoch 24000, Train Loss: 0.34727978706359863, Val Loss: 0.4342310428619385
+Epoch 26000, Train Loss: 0.34720951318740845, Val Loss: 0.4341433346271515
+Epoch 28000, Train Loss: 0.3471468687057495, Val Loss: 0.4340647757053375
+Epoch 30000, Train Loss: 0.3470889925956726, Val Loss: 0.4339926540851593
+Epoch 32000, Train Loss: 0.3470330238342285, Val Loss: 0.433922678232193
+Epoch 34000, Train Loss: 0.3469734489917755, Val Loss: 0.4338493049144745
+Epoch 36000, Train Loss: 0.34690171480178833, Val Loss: 0.4337620139122009
+Epoch 38000, Train Loss: 0.3467918634414673, Val Loss: 0.4336315393447876
+The Experiment failed - After 40000 epochs 
+
+Starting Experiment 10...
+
+Epoch 0, Train Loss: 2.200286626815796, Val Loss: 1.916254997253418
+Epoch 2000, Train Loss: 0.020340662449598312, Val Loss: 0.031209424138069153
+Experiment 10: Stopping early: Validation loss < 0.2 at epoch 2791
+
+Starting Experiment 11...
+
+Epoch 0, Train Loss: 2.8813114166259766, Val Loss: 2.618835210800171
+Epoch 2000, Train Loss: 0.017014911398291588, Val Loss: 0.02677670679986477
+Experiment 11: Stopping early: Validation loss < 0.2 at epoch 2628
+
+Experiment Results Table:
+
+ Experiment  Mean Train Loss  Std Dev Train Loss  Epochs Until Stop  Final Train Loss  Final Val Loss
+          1         0.223237            0.256679               2970          0.010063        0.016837
+          2         0.175205            0.235602               2676          0.014512        0.019658
+          3         0.209775            0.261544               2710          0.011609        0.018012
+          4         0.274471            0.197967               5035          0.014977        0.019868
+          5         0.280036            0.238655               4429          0.014738        0.020032
+          6         0.218898            0.262529               2893          0.012599        0.017500
+          7         0.183213            0.238692               2649          0.011217        0.017950
+          8         0.187384            0.242955               2876          0.012408        0.017737
+         10         0.231129            0.275829               2791          0.010928        0.017369
+         11         0.200514            0.263942               2628          0.010714        0.017311
+
+Summary Table (Percentage Std Dev and Mean):
+
+           Metric        Mean  Std Dev %
+Epochs Until Stop 3165.700000  26.701792
+ Final Train Loss    0.012377  14.527970
+   Final Val Loss    0.018227   6.439278
+
+Total Failures: 1
+
+-------------------------------------------------------------------------
+Running Configuration 5: {'num_hidden': 2, 'bypass': True, 'l_rate': 0.01}
+
+
+Starting Experiment 1...
+
+Epoch 0, Train Loss: 1.787900447845459, Val Loss: 2.068127155303955
+Epoch 2000, Train Loss: 0.5967132449150085, Val Loss: 0.6158934831619263
+Epoch 4000, Train Loss: 0.347614049911499, Val Loss: 0.3993750810623169
+Epoch 6000, Train Loss: 0.19672182202339172, Val Loss: 0.25026586651802063
+Epoch 8000, Train Loss: 0.12748682498931885, Val Loss: 0.17563651502132416
+Epoch 10000, Train Loss: 0.09077207744121552, Val Loss: 0.13332194089889526
+Epoch 12000, Train Loss: 0.06864926964044571, Val Loss: 0.106327123939991
+Experiment 1: Stopping early: Validation loss < 0.2 at epoch 12549
+
+Starting Experiment 2...
+
+Epoch 0, Train Loss: 2.550354242324829, Val Loss: 2.961534261703491
+Epoch 2000, Train Loss: 0.6857879757881165, Val Loss: 0.6885709166526794
+Epoch 4000, Train Loss: 0.6451146006584167, Val Loss: 0.6549088954925537
+Epoch 6000, Train Loss: 0.4295726418495178, Val Loss: 0.47662368416786194
+Epoch 8000, Train Loss: 0.23540708422660828, Val Loss: 0.29099446535110474
+Epoch 10000, Train Loss: 0.14803273975849152, Val Loss: 0.19921745359897614
+Epoch 12000, Train Loss: 0.10474218428134918, Val Loss: 0.15059557557106018
+Epoch 14000, Train Loss: 0.07986792176961899, Val Loss: 0.1211385726928711
+Experiment 2: Stopping early: Validation loss < 0.2 at epoch 14895
+
+Starting Experiment 3...
+
+Epoch 0, Train Loss: 2.548041343688965, Val Loss: 2.884610891342163
+Epoch 2000, Train Loss: 0.6932758092880249, Val Loss: 0.6939587593078613
+Epoch 4000, Train Loss: 0.6917949914932251, Val Loss: 0.6917271018028259
+Epoch 6000, Train Loss: 0.6843298077583313, Val Loss: 0.6850448846817017
+Epoch 8000, Train Loss: 0.6168407201766968, Val Loss: 0.6307264566421509
+Epoch 10000, Train Loss: 0.37428537011146545, Val Loss: 0.4239378869533539
+Epoch 12000, Train Loss: 0.20783191919326782, Val Loss: 0.261561781167984
+Epoch 14000, Train Loss: 0.1326046586036682, Val Loss: 0.18108224868774414
+Epoch 16000, Train Loss: 0.09363925457000732, Val Loss: 0.13639578223228455
+Epoch 18000, Train Loss: 0.07053174823522568, Val Loss: 0.10830217599868774
+Experiment 3: Stopping early: Validation loss < 0.2 at epoch 18729
+
+Starting Experiment 4...
+
+Epoch 0, Train Loss: 2.163005828857422, Val Loss: 2.3176565170288086
+Epoch 2000, Train Loss: 0.6845288872718811, Val Loss: 0.6842239499092102
+Epoch 4000, Train Loss: 0.6263035535812378, Val Loss: 0.6400374174118042
+Epoch 6000, Train Loss: 0.371168315410614, Val Loss: 0.42062050104141235
+Epoch 8000, Train Loss: 0.17722901701927185, Val Loss: 0.22623778879642487
+Epoch 10000, Train Loss: 0.10142368078231812, Val Loss: 0.14123761653900146
+Epoch 12000, Train Loss: 0.06802892684936523, Val Loss: 0.10076136142015457
+Experiment 4: Stopping early: Validation loss < 0.2 at epoch 13453
+
+Starting Experiment 5...
+
+Epoch 0, Train Loss: 2.1372432708740234, Val Loss: 2.504725933074951
+Epoch 2000, Train Loss: 0.6573200225830078, Val Loss: 0.6633219122886658
+Epoch 4000, Train Loss: 0.4922177791595459, Val Loss: 0.5285589694976807
+Epoch 6000, Train Loss: 0.27299031615257263, Val Loss: 0.326706200838089
+Epoch 8000, Train Loss: 0.16670069098472595, Val Loss: 0.2182483673095703
+Epoch 10000, Train Loss: 0.11556611955165863, Val Loss: 0.16223232448101044
+Epoch 12000, Train Loss: 0.08713303506374359, Val Loss: 0.12936386466026306
+Experiment 5: Stopping early: Validation loss < 0.2 at epoch 13324
+
+Starting Experiment 6...
+
+Epoch 0, Train Loss: 1.7983765602111816, Val Loss: 2.1352288722991943
+Epoch 2000, Train Loss: 0.6803299188613892, Val Loss: 0.6832956075668335
+Epoch 4000, Train Loss: 0.5723997950553894, Val Loss: 0.5967153310775757
+Epoch 6000, Train Loss: 0.3202824592590332, Val Loss: 0.37375199794769287
+Epoch 8000, Train Loss: 0.17734475433826447, Val Loss: 0.22946718335151672
+Epoch 10000, Train Loss: 0.11112646758556366, Val Loss: 0.15575513243675232
+Epoch 12000, Train Loss: 0.07690992951393127, Val Loss: 0.11458566039800644
+Epoch 14000, Train Loss: 0.057269565761089325, Val Loss: 0.08946564048528671
+Experiment 6: Stopping early: Validation loss < 0.2 at epoch 14013
+
+Starting Experiment 7...
+
+Epoch 0, Train Loss: 1.8864705562591553, Val Loss: 2.0775580406188965
+Epoch 2000, Train Loss: 0.6616581082344055, Val Loss: 0.6649969816207886
+Epoch 4000, Train Loss: 0.4851394295692444, Val Loss: 0.5222366452217102
+Epoch 6000, Train Loss: 0.2660636901855469, Val Loss: 0.3204253911972046
+Epoch 8000, Train Loss: 0.16211844980716705, Val Loss: 0.2138773649930954
+Epoch 10000, Train Loss: 0.1120002344250679, Val Loss: 0.1585579514503479
+Epoch 12000, Train Loss: 0.08401629328727722, Val Loss: 0.12584981322288513
+Experiment 7: Stopping early: Validation loss < 0.2 at epoch 13338
+
+Starting Experiment 8...
+
+Epoch 0, Train Loss: 2.1649577617645264, Val Loss: 2.516961097717285
+Epoch 2000, Train Loss: 0.6238867044448853, Val Loss: 0.6370665431022644
+Epoch 4000, Train Loss: 0.400863915681839, Val Loss: 0.44737890362739563
+Epoch 6000, Train Loss: 0.22481922805309296, Val Loss: 0.27851879596710205
+Epoch 8000, Train Loss: 0.1441071629524231, Val Loss: 0.19391514360904694
+Epoch 10000, Train Loss: 0.10314760357141495, Val Loss: 0.14815309643745422
+Epoch 12000, Train Loss: 0.07930982857942581, Val Loss: 0.12016350775957108
+Experiment 8: Stopping early: Validation loss < 0.2 at epoch 12622
+
+Starting Experiment 9...
+
+Epoch 0, Train Loss: 2.3424549102783203, Val Loss: 2.614250659942627
+Epoch 2000, Train Loss: 0.6895260810852051, Val Loss: 0.6894432902336121
+Epoch 4000, Train Loss: 0.6708400845527649, Val Loss: 0.6729854941368103
+Epoch 6000, Train Loss: 0.5289003252983093, Val Loss: 0.5626441240310669
+Epoch 8000, Train Loss: 0.29213035106658936, Val Loss: 0.34690383076667786
+Epoch 10000, Train Loss: 0.17414456605911255, Val Loss: 0.22708037495613098
+Epoch 12000, Train Loss: 0.11895474791526794, Val Loss: 0.16667942702770233
+Epoch 14000, Train Loss: 0.08893844485282898, Val Loss: 0.13192808628082275
+Experiment 9: Stopping early: Validation loss < 0.2 at epoch 15532
+
+Starting Experiment 10...
+
+Epoch 0, Train Loss: 1.6476972103118896, Val Loss: 1.844588279724121
+Epoch 2000, Train Loss: 0.6864149570465088, Val Loss: 0.6854261755943298
+Epoch 4000, Train Loss: 0.6573231816291809, Val Loss: 0.6602439880371094
+Epoch 6000, Train Loss: 0.495796263217926, Val Loss: 0.53216552734375
+Epoch 8000, Train Loss: 0.2611662745475769, Val Loss: 0.3175981044769287
+Epoch 10000, Train Loss: 0.14754197001457214, Val Loss: 0.20067626237869263
+Epoch 12000, Train Loss: 0.0970342606306076, Val Loss: 0.14385178685188293
+Epoch 14000, Train Loss: 0.07073504477739334, Val Loss: 0.11217604577541351
+Experiment 10: Stopping early: Validation loss < 0.2 at epoch 14927
+
+Experiment Results Table:
+
+ Experiment  Mean Train Loss  Std Dev Train Loss  Epochs Until Stop  Final Train Loss  Final Val Loss
+          1         0.283007            0.224036              12549          0.064089        0.100568
+          2         0.364874            0.264662              14895          0.071942        0.111426
+          3         0.421337            0.274518              18729          0.064364        0.100520
+          4         0.358926            0.266814              13453          0.054252        0.083200
+          5         0.326988            0.241231              13324          0.074590        0.114310
+          6         0.333994            0.253525              14013          0.057171        0.089336
+          7         0.322091            0.238286              13338          0.071517        0.110631
+          8         0.306283            0.232734              12622          0.073860        0.113576
+          9         0.381623            0.261649              15532          0.074142        0.114081
+         10         0.372397            0.257328              14927          0.062583        0.101931
+
+Summary Table (Percentage Std Dev and Mean):
+
+           Metric         Mean  Std Dev %
+Epochs Until Stop 14338.200000  12.823480
+ Final Train Loss     0.066851  11.086120
+   Final Val Loss     0.103958  10.510768
+
+Total Failures: 0
+
+-------------------------------------------------------------------------
+Running Configuration 6: {'num_hidden': 2, 'bypass': False, 'l_rate': 0.01}
+
+
+Starting Experiment 1...
+
+Epoch 0, Train Loss: 2.1162567138671875, Val Loss: 2.1255860328674316
+Epoch 2000, Train Loss: 0.692785382270813, Val Loss: 0.6924698352813721
+Epoch 4000, Train Loss: 0.6893913149833679, Val Loss: 0.6912866830825806
+Epoch 6000, Train Loss: 0.6757528781890869, Val Loss: 0.6849238276481628
+Epoch 8000, Train Loss: 0.5988150238990784, Val Loss: 0.6444721221923828
+Epoch 10000, Train Loss: 0.4674406051635742, Val Loss: 0.547395646572113
+Epoch 12000, Train Loss: 0.40775051712989807, Val Loss: 0.49404823780059814
+Epoch 14000, Train Loss: 0.3845011591911316, Val Loss: 0.47211024165153503
+Epoch 16000, Train Loss: 0.3733062744140625, Val Loss: 0.4612554907798767
+Epoch 18000, Train Loss: 0.36694955825805664, Val Loss: 0.4549761414527893
+Epoch 20000, Train Loss: 0.3629187047481537, Val Loss: 0.4509362280368805
+Epoch 22000, Train Loss: 0.360159695148468, Val Loss: 0.44813814759254456
+Epoch 24000, Train Loss: 0.3581640124320984, Val Loss: 0.4460933208465576
+Epoch 26000, Train Loss: 0.35665878653526306, Val Loss: 0.4445374011993408
+Epoch 28000, Train Loss: 0.3554862141609192, Val Loss: 0.44331514835357666
+Epoch 30000, Train Loss: 0.35454875230789185, Val Loss: 0.44233083724975586
+Epoch 32000, Train Loss: 0.3537835478782654, Val Loss: 0.4415224492549896
+Epoch 34000, Train Loss: 0.3531472682952881, Val Loss: 0.44084590673446655
+Epoch 36000, Train Loss: 0.3526110053062439, Val Loss: 0.44027259945869446
+Epoch 38000, Train Loss: 0.35215291380882263, Val Loss: 0.43978068232536316
+The Experiment failed - After 40000 epochs 
+
+Starting Experiment 2...
+
+Epoch 0, Train Loss: 1.5665390491485596, Val Loss: 1.6135450601577759
+Epoch 2000, Train Loss: 0.6767503023147583, Val Loss: 0.6948943138122559
+Epoch 4000, Train Loss: 0.6415884494781494, Val Loss: 0.6884797811508179
+Epoch 6000, Train Loss: 0.5842987895011902, Val Loss: 0.670423686504364
+Epoch 8000, Train Loss: 0.5415371060371399, Val Loss: 0.6506130695343018
+Epoch 10000, Train Loss: 0.5183692574501038, Val Loss: 0.6378807425498962
+Epoch 12000, Train Loss: 0.5053391456604004, Val Loss: 0.6299971342086792
+Epoch 14000, Train Loss: 0.49693769216537476, Val Loss: 0.6243194341659546
+Epoch 16000, Train Loss: 0.4898686707019806, Val Loss: 0.6183869242668152
+Epoch 18000, Train Loss: 0.47437071800231934, Val Loss: 0.6004806160926819
+Epoch 20000, Train Loss: 0.27071860432624817, Val Loss: 0.35986825823783875
+Epoch 22000, Train Loss: 0.10678383708000183, Val Loss: 0.1528463065624237
+Epoch 24000, Train Loss: 0.058598656207323074, Val Loss: 0.08635623753070831
+Experiment 2: Stopping early: Validation loss < 0.2 at epoch 25801
+
+Starting Experiment 3...
+
+Epoch 0, Train Loss: 2.176535129547119, Val Loss: 2.1778371334075928
+Epoch 2000, Train Loss: 0.6931575536727905, Val Loss: 0.6929570436477661
+Epoch 4000, Train Loss: 0.6930922269821167, Val Loss: 0.6930562257766724
+Epoch 6000, Train Loss: 0.6929535269737244, Val Loss: 0.6931909322738647
+Epoch 8000, Train Loss: 0.6925776600837708, Val Loss: 0.6933631896972656
+Epoch 10000, Train Loss: 0.6914260387420654, Val Loss: 0.6934587359428406
+Epoch 12000, Train Loss: 0.6871758699417114, Val Loss: 0.6924630403518677
+Epoch 14000, Train Loss: 0.6653112769126892, Val Loss: 0.6811977624893188
+Epoch 16000, Train Loss: 0.5591033697128296, Val Loss: 0.6104834675788879
+Epoch 18000, Train Loss: 0.4420977532863617, Val Loss: 0.5229545831680298
+Epoch 20000, Train Loss: 0.39799410104751587, Val Loss: 0.48534417152404785
+Epoch 22000, Train Loss: 0.37996333837509155, Val Loss: 0.46875858306884766
+Epoch 24000, Train Loss: 0.37079480290412903, Val Loss: 0.45992061495780945
+Epoch 26000, Train Loss: 0.3653854727745056, Val Loss: 0.4545309543609619
+Epoch 28000, Train Loss: 0.36186206340789795, Val Loss: 0.45093002915382385
+Epoch 30000, Train Loss: 0.3594030737876892, Val Loss: 0.4483645558357239
+Epoch 32000, Train Loss: 0.3575977087020874, Val Loss: 0.4464484453201294
+Epoch 34000, Train Loss: 0.3562204837799072, Val Loss: 0.44496458768844604
+Epoch 36000, Train Loss: 0.3551378846168518, Val Loss: 0.4437822103500366
+Epoch 38000, Train Loss: 0.35426580905914307, Val Loss: 0.44281870126724243
+The Experiment failed - After 40000 epochs 
+
+Starting Experiment 4...
+
+Epoch 0, Train Loss: 1.0642647743225098, Val Loss: 1.1119959354400635
+Epoch 2000, Train Loss: 0.6341753602027893, Val Loss: 0.6772701740264893
+Epoch 4000, Train Loss: 0.5351109504699707, Val Loss: 0.6218036413192749
+Epoch 6000, Train Loss: 0.45654404163360596, Val Loss: 0.5521888732910156
+Epoch 8000, Train Loss: 0.41189438104629517, Val Loss: 0.5065078735351562
+Epoch 10000, Train Loss: 0.38887470960617065, Val Loss: 0.4821195900440216
+Epoch 12000, Train Loss: 0.3763872981071472, Val Loss: 0.46852627396583557
+Epoch 14000, Train Loss: 0.369037389755249, Val Loss: 0.4603467583656311
+Epoch 16000, Train Loss: 0.364357590675354, Val Loss: 0.45504599809646606
+Epoch 18000, Train Loss: 0.3611770570278168, Val Loss: 0.45139139890670776
+Epoch 20000, Train Loss: 0.35890117287635803, Val Loss: 0.4487437307834625
+Epoch 22000, Train Loss: 0.3572039008140564, Val Loss: 0.4467490315437317
+Epoch 24000, Train Loss: 0.3558959364891052, Val Loss: 0.4451979100704193
+Epoch 26000, Train Loss: 0.35486072301864624, Val Loss: 0.44395992159843445
+Epoch 28000, Train Loss: 0.35402315855026245, Val Loss: 0.44295114278793335
+Epoch 30000, Train Loss: 0.3533327579498291, Val Loss: 0.44211435317993164
+Epoch 32000, Train Loss: 0.35275474190711975, Val Loss: 0.44140928983688354
+Epoch 34000, Train Loss: 0.3522643446922302, Val Loss: 0.44080662727355957
+Epoch 36000, Train Loss: 0.3518434762954712, Val Loss: 0.440287709236145
+Epoch 38000, Train Loss: 0.3514783978462219, Val Loss: 0.4398368000984192
+The Experiment failed - After 40000 epochs 
+
+Starting Experiment 5...
+
+Epoch 0, Train Loss: 1.5569534301757812, Val Loss: 1.5739690065383911
+Epoch 2000, Train Loss: 0.6694743633270264, Val Loss: 0.6836788058280945
+Epoch 4000, Train Loss: 0.5892454385757446, Val Loss: 0.6535778045654297
+Epoch 6000, Train Loss: 0.4902680516242981, Val Loss: 0.5819510817527771
+Epoch 8000, Train Loss: 0.2949635982513428, Val Loss: 0.3639260232448578
+Epoch 10000, Train Loss: 0.12283975630998611, Val Loss: 0.16105806827545166
+Epoch 12000, Train Loss: 0.06772582232952118, Val Loss: 0.09214287996292114
+Epoch 14000, Train Loss: 0.04536578059196472, Val Loss: 0.06315390765666962
+Experiment 5: Stopping early: Validation loss < 0.2 at epoch 14044
+
+Starting Experiment 6...
+
+Epoch 0, Train Loss: 1.6938621997833252, Val Loss: 1.7227072715759277
+Epoch 2000, Train Loss: 0.6877410411834717, Val Loss: 0.6924548149108887
+Epoch 4000, Train Loss: 0.648338258266449, Val Loss: 0.6799578666687012
+Epoch 6000, Train Loss: 0.5517072677612305, Val Loss: 0.6306930780410767
+Epoch 8000, Train Loss: 0.46086710691452026, Val Loss: 0.5526338815689087
+Epoch 10000, Train Loss: 0.25336402654647827, Val Loss: 0.3191707134246826
+Epoch 12000, Train Loss: 0.10852301120758057, Val Loss: 0.14459353685379028
+Epoch 14000, Train Loss: 0.06234533339738846, Val Loss: 0.08574596792459488
+Experiment 6: Stopping early: Validation loss < 0.2 at epoch 15712
+
+Starting Experiment 7...
+
+Epoch 0, Train Loss: 1.390690803527832, Val Loss: 1.4273678064346313
+Epoch 2000, Train Loss: 0.6801257133483887, Val Loss: 0.695648193359375
+Epoch 4000, Train Loss: 0.649258017539978, Val Loss: 0.6892720460891724
+Epoch 6000, Train Loss: 0.5810275077819824, Val Loss: 0.6640306711196899
+Epoch 8000, Train Loss: 0.5213685631752014, Val Loss: 0.6283223032951355
+Epoch 10000, Train Loss: 0.42687100172042847, Val Loss: 0.5304272174835205
+Epoch 12000, Train Loss: 0.19933892786502838, Val Loss: 0.26119527220726013
+Epoch 14000, Train Loss: 0.0912780836224556, Val Loss: 0.12524868547916412
+Epoch 16000, Train Loss: 0.05539492145180702, Val Loss: 0.07775279134511948
+Experiment 7: Stopping early: Validation loss < 0.2 at epoch 17240
+
+Starting Experiment 8...
+
+Epoch 0, Train Loss: 1.8105368614196777, Val Loss: 1.9049429893493652
+Epoch 2000, Train Loss: 0.6357913017272949, Val Loss: 0.6809370517730713
+Epoch 4000, Train Loss: 0.5403488874435425, Val Loss: 0.6271072030067444
+Epoch 6000, Train Loss: 0.38887259364128113, Val Loss: 0.47346657514572144
+Epoch 8000, Train Loss: 0.16718658804893494, Val Loss: 0.216050386428833
+Epoch 10000, Train Loss: 0.08315561711788177, Val Loss: 0.11198827624320984
+Epoch 12000, Train Loss: 0.052586060017347336, Val Loss: 0.0725250244140625
+Experiment 8: Stopping early: Validation loss < 0.2 at epoch 12847
+
+Starting Experiment 9...
+
+Epoch 0, Train Loss: 0.9121841192245483, Val Loss: 0.9116608500480652
+Epoch 2000, Train Loss: 0.6872967481613159, Val Loss: 0.6904497742652893
+Epoch 4000, Train Loss: 0.6583619117736816, Val Loss: 0.6753877401351929
+Epoch 6000, Train Loss: 0.527269184589386, Val Loss: 0.5947327017784119
+Epoch 8000, Train Loss: 0.4285834729671478, Val Loss: 0.5150333642959595
+Epoch 10000, Train Loss: 0.3929179608821869, Val Loss: 0.4823797941207886
+Epoch 12000, Train Loss: 0.3775565028190613, Val Loss: 0.46745994687080383
+Epoch 14000, Train Loss: 0.36944282054901123, Val Loss: 0.459276020526886
+Epoch 16000, Train Loss: 0.3645355701446533, Val Loss: 0.4541870653629303
+Epoch 18000, Train Loss: 0.3612843155860901, Val Loss: 0.450741171836853
+Epoch 20000, Train Loss: 0.35898756980895996, Val Loss: 0.4482627511024475
+Epoch 22000, Train Loss: 0.35728591680526733, Val Loss: 0.44639816880226135
+Epoch 24000, Train Loss: 0.35597866773605347, Val Loss: 0.4449462294578552
+Epoch 26000, Train Loss: 0.35494494438171387, Val Loss: 0.4437848925590515
+Epoch 28000, Train Loss: 0.3541085720062256, Val Loss: 0.4428350031375885
+Epoch 30000, Train Loss: 0.3534189462661743, Val Loss: 0.4420439898967743
+Epoch 32000, Train Loss: 0.35284101963043213, Val Loss: 0.4413753151893616
+Epoch 34000, Train Loss: 0.3523501753807068, Val Loss: 0.44080278277397156
+Epoch 36000, Train Loss: 0.35192805528640747, Val Loss: 0.4403068423271179
+Epoch 38000, Train Loss: 0.35156190395355225, Val Loss: 0.4398728907108307
+The Experiment failed - After 40000 epochs 
+
+Starting Experiment 10...
+
+Epoch 0, Train Loss: 1.2134029865264893, Val Loss: 1.215144395828247
+Epoch 2000, Train Loss: 0.6924101114273071, Val Loss: 0.6945786476135254
+Epoch 4000, Train Loss: 0.6729521751403809, Val Loss: 0.6925754547119141
+Epoch 6000, Train Loss: 0.6158841848373413, Val Loss: 0.6761260032653809
+Epoch 8000, Train Loss: 0.5476853847503662, Val Loss: 0.6480143070220947
+Epoch 10000, Train Loss: 0.5122995972633362, Val Loss: 0.6285553574562073
+Epoch 12000, Train Loss: 0.4825108051300049, Val Loss: 0.6019845604896545
+Epoch 14000, Train Loss: 0.35516446828842163, Val Loss: 0.4528154134750366
+Epoch 16000, Train Loss: 0.14444750547409058, Val Loss: 0.19629009068012238
+Epoch 18000, Train Loss: 0.07306791841983795, Val Loss: 0.10295718163251877
+Epoch 20000, Train Loss: 0.047236498445272446, Val Loss: 0.06774640828371048
+Experiment 10: Stopping early: Validation loss < 0.2 at epoch 20516
+
+Starting Experiment 11...
+
+Epoch 0, Train Loss: 1.1808562278747559, Val Loss: 1.2412266731262207
+Epoch 2000, Train Loss: 0.6316405534744263, Val Loss: 0.6827546954154968
+Epoch 4000, Train Loss: 0.5555567741394043, Val Loss: 0.6516332626342773
+Epoch 6000, Train Loss: 0.5164508819580078, Val Loss: 0.6317300200462341
+Epoch 8000, Train Loss: 0.49328145384788513, Val Loss: 0.6145029067993164
+Epoch 10000, Train Loss: 0.4335783123970032, Val Loss: 0.5458251237869263
+Epoch 12000, Train Loss: 0.21512623131275177, Val Loss: 0.2840486168861389
+Epoch 14000, Train Loss: 0.0936255231499672, Val Loss: 0.13021226227283478
+Epoch 16000, Train Loss: 0.05560637265443802, Val Loss: 0.07920768857002258
+Experiment 11: Stopping early: Validation loss < 0.2 at epoch 17353
+
+Starting Experiment 12...
+
+Epoch 0, Train Loss: 1.7227914333343506, Val Loss: 1.7344681024551392
+Epoch 2000, Train Loss: 0.6762932538986206, Val Loss: 0.6903814077377319
+Epoch 4000, Train Loss: 0.6035877466201782, Val Loss: 0.66643887758255
+Epoch 6000, Train Loss: 0.513161838054657, Val Loss: 0.6111801862716675
+Epoch 8000, Train Loss: 0.4372403621673584, Val Loss: 0.5336209535598755
+Epoch 10000, Train Loss: 0.39886701107025146, Val Loss: 0.4921780824661255
+Epoch 12000, Train Loss: 0.38099026679992676, Val Loss: 0.47271013259887695
+Epoch 14000, Train Loss: 0.3715299367904663, Val Loss: 0.4623073935508728
+Epoch 16000, Train Loss: 0.3658865690231323, Val Loss: 0.4560408294200897
+Epoch 18000, Train Loss: 0.36220595240592957, Val Loss: 0.451915979385376
+Epoch 20000, Train Loss: 0.3596423864364624, Val Loss: 0.44901907444000244
+Epoch 22000, Train Loss: 0.3577665686607361, Val Loss: 0.4468831717967987
+Epoch 24000, Train Loss: 0.35634031891822815, Val Loss: 0.4452480971813202
+Epoch 26000, Train Loss: 0.35522300004959106, Val Loss: 0.44395875930786133
+Epoch 28000, Train Loss: 0.3543257713317871, Val Loss: 0.44291698932647705
+Epoch 30000, Train Loss: 0.35359081625938416, Val Loss: 0.4420594871044159
+Epoch 32000, Train Loss: 0.35297834873199463, Val Loss: 0.44134122133255005
+Epoch 34000, Train Loss: 0.3524608314037323, Val Loss: 0.4407307803630829
+Epoch 36000, Train Loss: 0.3520180583000183, Val Loss: 0.440207302570343
+Epoch 38000, Train Loss: 0.35163524746894836, Val Loss: 0.43975162506103516
+The Experiment failed - After 40000 epochs 
+
+Starting Experiment 13...
+
+Epoch 0, Train Loss: 1.0551810264587402, Val Loss: 1.0547319650650024
+Epoch 2000, Train Loss: 0.6922423243522644, Val Loss: 0.6944063901901245
+Epoch 4000, Train Loss: 0.6790626645088196, Val Loss: 0.6930617094039917
+Epoch 6000, Train Loss: 0.6298032999038696, Val Loss: 0.6802850961685181
+Epoch 8000, Train Loss: 0.5548000335693359, Val Loss: 0.6512473821640015
+Epoch 10000, Train Loss: 0.5150660872459412, Val Loss: 0.630413830280304
+Epoch 12000, Train Loss: 0.48248809576034546, Val Loss: 0.6022413969039917
+Epoch 14000, Train Loss: 0.42516160011291504, Val Loss: 0.5345660448074341
+Epoch 16000, Train Loss: 0.3975667655467987, Val Loss: 0.49976786971092224
+Epoch 18000, Train Loss: 0.38371241092681885, Val Loss: 0.48257705569267273
+Epoch 20000, Train Loss: 0.3753494620323181, Val Loss: 0.4723186790943146
+Epoch 22000, Train Loss: 0.3696783185005188, Val Loss: 0.46533477306365967
+Epoch 24000, Train Loss: 0.3655809164047241, Val Loss: 0.4602193534374237
+Epoch 26000, Train Loss: 0.36251530051231384, Val Loss: 0.45632362365722656
+Epoch 28000, Train Loss: 0.3601681888103485, Val Loss: 0.45328617095947266
+Epoch 30000, Train Loss: 0.3583374619483948, Val Loss: 0.4508744478225708
+Epoch 32000, Train Loss: 0.35688549280166626, Val Loss: 0.44893062114715576
+Epoch 34000, Train Loss: 0.355715274810791, Val Loss: 0.44734007120132446
+Epoch 36000, Train Loss: 0.35475847125053406, Val Loss: 0.4460218548774719
+Epoch 38000, Train Loss: 0.3539659082889557, Val Loss: 0.44491684436798096
+The Experiment failed - After 40000 epochs 
+
+Starting Experiment 14...
+
+Epoch 0, Train Loss: 1.282531976699829, Val Loss: 1.3340885639190674
+Epoch 2000, Train Loss: 0.6689174175262451, Val Loss: 0.693787693977356
+Epoch 4000, Train Loss: 0.6124839186668396, Val Loss: 0.676522970199585
+Epoch 6000, Train Loss: 0.5413180589675903, Val Loss: 0.6394729614257812
+Epoch 8000, Train Loss: 0.4531225860118866, Val Loss: 0.5533981919288635
+Epoch 10000, Train Loss: 0.23439329862594604, Val Loss: 0.30193954706192017
+Epoch 12000, Train Loss: 0.10260013490915298, Val Loss: 0.13910029828548431
+Epoch 14000, Train Loss: 0.06005868315696716, Val Loss: 0.08353186398744583
+Experiment 14: Stopping early: Validation loss < 0.2 at epoch 15591
+
+Starting Experiment 15...
+
+Epoch 0, Train Loss: 1.1384409666061401, Val Loss: 1.1400169134140015
+Epoch 2000, Train Loss: 0.6937878131866455, Val Loss: 0.692593514919281
+Epoch 4000, Train Loss: 0.692183256149292, Val Loss: 0.6941195726394653
+Epoch 6000, Train Loss: 0.6889585852622986, Val Loss: 0.6955158710479736
+Epoch 8000, Train Loss: 0.6751408576965332, Val Loss: 0.6936854720115662
+Epoch 10000, Train Loss: 0.6160446405410767, Val Loss: 0.6737571358680725
+Epoch 12000, Train Loss: 0.5354939699172974, Val Loss: 0.6348428726196289
+Epoch 14000, Train Loss: 0.4703689217567444, Val Loss: 0.5784367322921753
+Epoch 16000, Train Loss: 0.4214073419570923, Val Loss: 0.5240952372550964
+Epoch 18000, Train Loss: 0.39481914043426514, Val Loss: 0.49395233392715454
+Epoch 20000, Train Loss: 0.23034065961837769, Val Loss: 0.31007522344589233
+Epoch 22000, Train Loss: 0.09211807698011398, Val Loss: 0.13019680976867676
+Epoch 24000, Train Loss: 0.05416642129421234, Val Loss: 0.07836697995662689
+Experiment 15: Stopping early: Validation loss < 0.2 at epoch 25323
+
+Starting Experiment 16...
+
+Epoch 0, Train Loss: 1.838341474533081, Val Loss: 1.8942821025848389
+Epoch 2000, Train Loss: 0.64613938331604, Val Loss: 0.6849915385246277
+Epoch 4000, Train Loss: 0.5619193315505981, Val Loss: 0.6513314843177795
+Epoch 6000, Train Loss: 0.5055643320083618, Val Loss: 0.6169255375862122
+Epoch 8000, Train Loss: 0.4385368227958679, Val Loss: 0.5454305410385132
+Epoch 10000, Train Loss: 0.40066444873809814, Val Loss: 0.5009469985961914
+Epoch 12000, Train Loss: 0.38232868909835815, Val Loss: 0.4792432188987732
+Epoch 14000, Train Loss: 0.3724185824394226, Val Loss: 0.4673117399215698
+Epoch 16000, Train Loss: 0.36647647619247437, Val Loss: 0.4600280523300171
+Epoch 18000, Train Loss: 0.3626066744327545, Val Loss: 0.45520588755607605
+Epoch 20000, Train Loss: 0.3599216043949127, Val Loss: 0.4518114924430847
+Epoch 22000, Train Loss: 0.35796523094177246, Val Loss: 0.4493056833744049
+Epoch 24000, Train Loss: 0.35648423433303833, Val Loss: 0.4473869800567627
+Epoch 26000, Train Loss: 0.3553282618522644, Val Loss: 0.44587442278862
+Epoch 28000, Train Loss: 0.3544032573699951, Val Loss: 0.44465211033821106
+Epoch 30000, Train Loss: 0.3536478579044342, Val Loss: 0.4436455965042114
+Epoch 32000, Train Loss: 0.3530203700065613, Val Loss: 0.44280314445495605
+Epoch 34000, Train Loss: 0.35249125957489014, Val Loss: 0.4420875608921051
+Epoch 36000, Train Loss: 0.35203951597213745, Val Loss: 0.4414709508419037
+Epoch 38000, Train Loss: 0.35164976119995117, Val Loss: 0.4409380555152893
+The Experiment failed - After 40000 epochs 
+
+Starting Experiment 17...
+
+Epoch 0, Train Loss: 1.5447039604187012, Val Loss: 1.6216869354248047
+Epoch 2000, Train Loss: 0.6546294689178467, Val Loss: 0.6934275031089783
+Epoch 4000, Train Loss: 0.5981929302215576, Val Loss: 0.6753942966461182
+Epoch 6000, Train Loss: 0.5478315353393555, Val Loss: 0.6527589559555054
+Epoch 8000, Train Loss: 0.5197451114654541, Val Loss: 0.637299656867981
+Epoch 10000, Train Loss: 0.5034509897232056, Val Loss: 0.6265882253646851
+Epoch 12000, Train Loss: 0.48704975843429565, Val Loss: 0.6110205054283142
+Epoch 14000, Train Loss: 0.3492054343223572, Val Loss: 0.4505363404750824
+Epoch 16000, Train Loss: 0.13992537558078766, Val Loss: 0.193836972117424
+Epoch 18000, Train Loss: 0.070528045296669, Val Loss: 0.10132618248462677
+Epoch 20000, Train Loss: 0.045689333230257034, Val Loss: 0.06662965565919876
+Experiment 17: Stopping early: Validation loss < 0.2 at epoch 20455
+
+Experiment Results Table:
+
+ Experiment  Mean Train Loss  Std Dev Train Loss  Epochs Until Stop  Final Train Loss  Final Val Loss
+          2         0.445256            0.204236              25801          0.041057        0.061158
+          5         0.373258            0.248260              14044          0.045030        0.062713
+          6         0.402369            0.252813              15712          0.044779        0.062680
+          7         0.413405            0.242758              17240          0.044104        0.062493
+          8         0.346076            0.245603              12847          0.045220        0.062838
+         10         0.437811            0.232536              20516          0.043196        0.062160
+         11         0.386342            0.218245              17353          0.043188        0.062152
+         14         0.389936            0.241915              15591          0.044429        0.062605
+         15         0.469515            0.226860              25323          0.042221        0.061671
+         17         0.416797            0.216787              20455          0.042242        0.061743
+
+Summary Table (Percentage Std Dev and Mean):
+
+           Metric         Mean  Std Dev %
+Epochs Until Stop 18488.200000  24.101197
+ Final Train Loss     0.043547   3.203866
+   Final Val Loss     0.062221   0.884133
+
+Total Failures: 7
+
+-------------------------------------------------------------------------
+Running Configuration 7: {'num_hidden': 4, 'bypass': True, 'l_rate': 0.01}
+
+
+Starting Experiment 1...
+
+Epoch 0, Train Loss: 2.479818344116211, Val Loss: 2.5995020866394043
+Epoch 2000, Train Loss: 0.6189480423927307, Val Loss: 0.6344808340072632
+Epoch 4000, Train Loss: 0.36887237429618835, Val Loss: 0.42125946283340454
+Epoch 6000, Train Loss: 0.19038432836532593, Val Loss: 0.24346286058425903
+Epoch 8000, Train Loss: 0.1107436865568161, Val Loss: 0.1545913964509964
+Epoch 10000, Train Loss: 0.0725376307964325, Val Loss: 0.1081971824169159
+Epoch 12000, Train Loss: 0.051872655749320984, Val Loss: 0.08139264583587646
+Experiment 1: Stopping early: Validation loss < 0.2 at epoch 12193
+
+Starting Experiment 2...
+
+Epoch 0, Train Loss: 3.006584644317627, Val Loss: 3.2815699577331543
+Epoch 2000, Train Loss: 0.6697729825973511, Val Loss: 0.6759082078933716
+Epoch 4000, Train Loss: 0.5117077827453613, Val Loss: 0.548198938369751
+Epoch 6000, Train Loss: 0.2783977687358856, Val Loss: 0.3352290391921997
+Epoch 8000, Train Loss: 0.16359767317771912, Val Loss: 0.2178463637828827
+Epoch 10000, Train Loss: 0.10953919589519501, Val Loss: 0.15814949572086334
+Epoch 12000, Train Loss: 0.08009809255599976, Val Loss: 0.12355916202068329
+Experiment 2: Stopping early: Validation loss < 0.2 at epoch 13530
+
+Starting Experiment 3...
+
+Epoch 0, Train Loss: 2.452108860015869, Val Loss: 2.613577127456665
+Epoch 2000, Train Loss: 0.6557679176330566, Val Loss: 0.6613150835037231
+Epoch 4000, Train Loss: 0.47831597924232483, Val Loss: 0.520998477935791
+Epoch 6000, Train Loss: 0.2299956977367401, Val Loss: 0.28837481141090393
+Epoch 8000, Train Loss: 0.117804154753685, Val Loss: 0.16627804934978485
+Epoch 10000, Train Loss: 0.07259571552276611, Val Loss: 0.11167020350694656
+Epoch 12000, Train Loss: 0.050722695887088776, Val Loss: 0.08317206799983978
+Experiment 3: Stopping early: Validation loss < 0.2 at epoch 12285
+
+Starting Experiment 4...
+
+Epoch 0, Train Loss: 1.1684205532073975, Val Loss: 1.2633233070373535
+Epoch 2000, Train Loss: 0.6380541324615479, Val Loss: 0.6467331051826477
+Epoch 4000, Train Loss: 0.41973525285720825, Val Loss: 0.4651811718940735
+Epoch 6000, Train Loss: 0.2099745273590088, Val Loss: 0.2635442614555359
+Epoch 8000, Train Loss: 0.1155674010515213, Val Loss: 0.16086795926094055
+Epoch 10000, Train Loss: 0.07362780719995499, Val Loss: 0.11077151447534561
+Epoch 12000, Train Loss: 0.052233800292015076, Val Loss: 0.08336112648248672
+Experiment 4: Stopping early: Validation loss < 0.2 at epoch 12187
+
+Starting Experiment 5...
+
+Epoch 0, Train Loss: 2.7231574058532715, Val Loss: 3.1159281730651855
+Epoch 2000, Train Loss: 0.6849109530448914, Val Loss: 0.6875616908073425
+Epoch 4000, Train Loss: 0.5953554511070251, Val Loss: 0.6076913475990295
+Epoch 6000, Train Loss: 0.3501965403556824, Val Loss: 0.36904340982437134
+Epoch 8000, Train Loss: 0.19248107075691223, Val Loss: 0.20663048326969147
+Epoch 10000, Train Loss: 0.11453454196453094, Val Loss: 0.12561704218387604
+Epoch 12000, Train Loss: 0.07343284785747528, Val Loss: 0.08283640444278717
+Experiment 5: Stopping early: Validation loss < 0.2 at epoch 13707
+
+Starting Experiment 6...
+
+Epoch 0, Train Loss: 2.404284954071045, Val Loss: 2.513667106628418
+Epoch 2000, Train Loss: 0.6620148420333862, Val Loss: 0.6643598079681396
+Epoch 4000, Train Loss: 0.4923136234283447, Val Loss: 0.5277005434036255
+Epoch 6000, Train Loss: 0.2346358597278595, Val Loss: 0.2867960035800934
+Epoch 8000, Train Loss: 0.1187611073255539, Val Loss: 0.1621592938899994
+Epoch 10000, Train Loss: 0.07304736971855164, Val Loss: 0.10790377110242844
+Epoch 12000, Train Loss: 0.05112917721271515, Val Loss: 0.08003067970275879
+Experiment 6: Stopping early: Validation loss < 0.2 at epoch 12165
+
+Starting Experiment 7...
+
+Epoch 0, Train Loss: 2.7958896160125732, Val Loss: 3.121297836303711
+Epoch 2000, Train Loss: 0.5850811004638672, Val Loss: 0.6066299080848694
+Epoch 4000, Train Loss: 0.34219563007354736, Val Loss: 0.39509686827659607
+Epoch 6000, Train Loss: 0.192821204662323, Val Loss: 0.24811868369579315
+Epoch 8000, Train Loss: 0.1242409348487854, Val Loss: 0.17457523941993713
+Epoch 10000, Train Loss: 0.08858950436115265, Val Loss: 0.13375172019004822
+Epoch 12000, Train Loss: 0.06757919490337372, Val Loss: 0.10834670066833496
+Experiment 7: Stopping early: Validation loss < 0.2 at epoch 12144
+
+Starting Experiment 8...
+
+Epoch 0, Train Loss: 3.086829900741577, Val Loss: 3.362743854522705
+Epoch 2000, Train Loss: 0.5156257748603821, Val Loss: 0.5510815382003784
+Epoch 4000, Train Loss: 0.2719765603542328, Val Loss: 0.3269539177417755
+Epoch 6000, Train Loss: 0.14963467419147491, Val Loss: 0.1989191323518753
+Epoch 8000, Train Loss: 0.09380915015935898, Val Loss: 0.13478010892868042
+Epoch 10000, Train Loss: 0.06525295972824097, Val Loss: 0.09957084059715271
+Experiment 8: Stopping early: Validation loss < 0.2 at epoch 11250
+
+Starting Experiment 9...
+
+Epoch 0, Train Loss: 1.8527493476867676, Val Loss: 1.9128737449645996
+Epoch 2000, Train Loss: 0.6774869561195374, Val Loss: 0.6766583323478699
+Epoch 4000, Train Loss: 0.5124058723449707, Val Loss: 0.5425825715065002
+Epoch 6000, Train Loss: 0.21547822654247284, Val Loss: 0.2600403130054474
+Epoch 8000, Train Loss: 0.10444347560405731, Val Loss: 0.1383821666240692
+Epoch 10000, Train Loss: 0.06446309387683868, Val Loss: 0.0907917246222496
+Experiment 9: Stopping early: Validation loss < 0.2 at epoch 11528
+
+Starting Experiment 10...
+
+Epoch 0, Train Loss: 1.7399605512619019, Val Loss: 1.8469536304473877
+Epoch 2000, Train Loss: 0.6594370603561401, Val Loss: 0.664667546749115
+Epoch 4000, Train Loss: 0.4714350402355194, Val Loss: 0.5138828754425049
+Epoch 6000, Train Loss: 0.25329968333244324, Val Loss: 0.3086787462234497
+Epoch 8000, Train Loss: 0.15170671045780182, Val Loss: 0.202623650431633
+Epoch 10000, Train Loss: 0.1019376590847969, Val Loss: 0.1463821530342102
+Epoch 12000, Train Loss: 0.07390118390321732, Val Loss: 0.11254283040761948
+Experiment 10: Stopping early: Validation loss < 0.2 at epoch 13499
+
+Experiment Results Table:
+
+ Experiment  Mean Train Loss  Std Dev Train Loss  Epochs Until Stop  Final Train Loss  Final Val Loss
+          1         0.288579            0.242232              12193          0.050404        0.079425
+          2         0.327465            0.259500              13530          0.065646        0.105742
+          3         0.318288            0.255936              12285          0.048549        0.080232
+          4         0.301835            0.235700              12187          0.050792        0.081451
+          5         0.352813            0.267827              13707          0.053170        0.061346
+          6         0.325387            0.257998              12165          0.049848        0.078349
+          7         0.288115            0.237039              12144          0.066407        0.106889
+          8         0.262684            0.240270              11250          0.054074        0.085112
+          9         0.338099            0.261765              11528          0.049042        0.071512
+         10         0.308459            0.236542              13499          0.060208        0.095165
+
+Summary Table (Percentage Std Dev and Mean):
+
+           Metric         Mean  Std Dev %
+Epochs Until Stop 12448.800000   6.813105
+ Final Train Loss     0.054814  12.416501
+   Final Val Loss     0.084522  17.019832
+
+Total Failures: 0
+
+-------------------------------------------------------------------------
+Running Configuration 8: {'num_hidden': 4, 'bypass': False, 'l_rate': 0.01}
+
+
+Starting Experiment 1...
+
+Epoch 0, Train Loss: 1.8716752529144287, Val Loss: 1.9353210926055908
+Epoch 2000, Train Loss: 0.6658900380134583, Val Loss: 0.6964653134346008
+Epoch 4000, Train Loss: 0.604978621006012, Val Loss: 0.6728595495223999
+Epoch 6000, Train Loss: 0.522487461566925, Val Loss: 0.6195979118347168
+Epoch 8000, Train Loss: 0.4362255036830902, Val Loss: 0.5318681001663208
+Epoch 10000, Train Loss: 0.26263144612312317, Val Loss: 0.3339405655860901
+Epoch 12000, Train Loss: 0.12410856783390045, Val Loss: 0.16218948364257812
+Epoch 14000, Train Loss: 0.07390418648719788, Val Loss: 0.09805965423583984
+Epoch 16000, Train Loss: 0.05104135721921921, Val Loss: 0.06835518032312393
+Experiment 1: Stopping early: Validation loss < 0.2 at epoch 16236
+
+Starting Experiment 2...
+
+Epoch 0, Train Loss: 1.9085636138916016, Val Loss: 1.9363504648208618
+Epoch 2000, Train Loss: 0.6656982898712158, Val Loss: 0.6866660714149475
+Epoch 4000, Train Loss: 0.5622584223747253, Val Loss: 0.6331946849822998
+Epoch 6000, Train Loss: 0.4513494372367859, Val Loss: 0.5452607870101929
+Epoch 8000, Train Loss: 0.3733214735984802, Val Loss: 0.4635242223739624
+Epoch 10000, Train Loss: 0.1820584535598755, Val Loss: 0.23241648077964783
+Epoch 12000, Train Loss: 0.09651896357536316, Val Loss: 0.12529492378234863
+Epoch 14000, Train Loss: 0.06267435848712921, Val Loss: 0.08239912986755371
+Experiment 2: Stopping early: Validation loss < 0.2 at epoch 15280
+
+Starting Experiment 3...
+
+Epoch 0, Train Loss: 1.7943108081817627, Val Loss: 1.8689756393432617
+Epoch 2000, Train Loss: 0.6433907151222229, Val Loss: 0.6887603998184204
+Epoch 4000, Train Loss: 0.566745400428772, Val Loss: 0.6553666591644287
+Epoch 6000, Train Loss: 0.49355682730674744, Val Loss: 0.5997154712677002
+Epoch 8000, Train Loss: 0.3215920925140381, Val Loss: 0.4015589952468872
+Epoch 10000, Train Loss: 0.16149821877479553, Val Loss: 0.20725007355213165
+Epoch 12000, Train Loss: 0.09208731353282928, Val Loss: 0.12081021070480347
+Epoch 14000, Train Loss: 0.060976266860961914, Val Loss: 0.081051766872406
+Experiment 3: Stopping early: Validation loss < 0.2 at epoch 15167
+
+Starting Experiment 4...
+
+Epoch 0, Train Loss: 1.2654311656951904, Val Loss: 1.2848165035247803
+Epoch 2000, Train Loss: 0.6475053429603577, Val Loss: 0.6732221245765686
+Epoch 4000, Train Loss: 0.5091733336448669, Val Loss: 0.5839592218399048
+Epoch 6000, Train Loss: 0.3955477476119995, Val Loss: 0.48142579197883606
+Epoch 8000, Train Loss: 0.21503378450870514, Val Loss: 0.2702297866344452
+Epoch 10000, Train Loss: 0.11444002389907837, Val Loss: 0.14667627215385437
+Epoch 12000, Train Loss: 0.07281606644392014, Val Loss: 0.09483115375041962
+Experiment 4: Stopping early: Validation loss < 0.2 at epoch 13923
+
+Starting Experiment 5...
+
+Epoch 0, Train Loss: 1.4101338386535645, Val Loss: 1.4309219121932983
+Epoch 2000, Train Loss: 0.6748460531234741, Val Loss: 0.696823239326477
+Epoch 4000, Train Loss: 0.6183751821517944, Val Loss: 0.6777116060256958
+Epoch 6000, Train Loss: 0.5360184907913208, Val Loss: 0.6330589652061462
+Epoch 8000, Train Loss: 0.43392181396484375, Val Loss: 0.5339550375938416
+Epoch 10000, Train Loss: 0.2368353009223938, Val Loss: 0.2996598482131958
+Epoch 12000, Train Loss: 0.12553560733795166, Val Loss: 0.16256563365459442
+Epoch 14000, Train Loss: 0.07761931419372559, Val Loss: 0.10211672633886337
+Epoch 16000, Train Loss: 0.05418247729539871, Val Loss: 0.07201087474822998
+Experiment 5: Stopping early: Validation loss < 0.2 at epoch 16367
+
+Starting Experiment 6...
+
+Epoch 0, Train Loss: 2.8176045417785645, Val Loss: 2.9066343307495117
+Epoch 2000, Train Loss: 0.6515874862670898, Val Loss: 0.6747690439224243
+Epoch 4000, Train Loss: 0.5085971355438232, Val Loss: 0.5792418718338013
+Epoch 6000, Train Loss: 0.24236631393432617, Val Loss: 0.29840371012687683
+Epoch 8000, Train Loss: 0.11350935697555542, Val Loss: 0.1457180678844452
+Epoch 10000, Train Loss: 0.0682259127497673, Val Loss: 0.08933746814727783
+Experiment 6: Stopping early: Validation loss < 0.2 at epoch 11827
+
+Starting Experiment 7...
+
+Epoch 0, Train Loss: 1.7265563011169434, Val Loss: 1.7657179832458496
+Epoch 2000, Train Loss: 0.6759390830993652, Val Loss: 0.693111002445221
+Epoch 4000, Train Loss: 0.6305351853370667, Val Loss: 0.6791141033172607
+Epoch 6000, Train Loss: 0.545492947101593, Val Loss: 0.6366944313049316
+Epoch 8000, Train Loss: 0.4437944293022156, Val Loss: 0.54133540391922
+Epoch 10000, Train Loss: 0.21538802981376648, Val Loss: 0.2775602340698242
+Epoch 12000, Train Loss: 0.0964595228433609, Val Loss: 0.1312742531299591
+Epoch 14000, Train Loss: 0.05727968364953995, Val Loss: 0.08033835887908936
+Experiment 7: Stopping early: Validation loss < 0.2 at epoch 15408
+
+Starting Experiment 8...
+
+Epoch 0, Train Loss: 2.7116305828094482, Val Loss: 2.8206381797790527
+Epoch 2000, Train Loss: 0.6133721470832825, Val Loss: 0.6598976850509644
+Epoch 4000, Train Loss: 0.46714597940444946, Val Loss: 0.5509726405143738
+Epoch 6000, Train Loss: 0.26355260610580444, Val Loss: 0.3259277045726776
+Epoch 8000, Train Loss: 0.1323775053024292, Val Loss: 0.16977715492248535
+Epoch 10000, Train Loss: 0.0787406638264656, Val Loss: 0.10325873643159866
+Epoch 12000, Train Loss: 0.05399041622877121, Val Loss: 0.07172496616840363
+Experiment 8: Stopping early: Validation loss < 0.2 at epoch 12456
+
+Starting Experiment 9...
+
+Epoch 0, Train Loss: 2.05924654006958, Val Loss: 2.14913272857666
+Epoch 2000, Train Loss: 0.6518157720565796, Val Loss: 0.6888863444328308
+Epoch 4000, Train Loss: 0.5653567314147949, Val Loss: 0.6411242485046387
+Epoch 6000, Train Loss: 0.46816182136535645, Val Loss: 0.5596323013305664
+Epoch 8000, Train Loss: 0.39100104570388794, Val Loss: 0.48060643672943115
+Epoch 10000, Train Loss: 0.19314557313919067, Val Loss: 0.24881549179553986
+Epoch 12000, Train Loss: 0.09991037845611572, Val Loss: 0.1311427503824234
+Epoch 14000, Train Loss: 0.06371291726827621, Val Loss: 0.08464322239160538
+Experiment 9: Stopping early: Validation loss < 0.2 at epoch 15471
+
+Starting Experiment 10...
+
+Epoch 0, Train Loss: 2.3778271675109863, Val Loss: 2.456244468688965
+Epoch 2000, Train Loss: 0.6492824554443359, Val Loss: 0.6687458753585815
+Epoch 4000, Train Loss: 0.5032914280891418, Val Loss: 0.5734087824821472
+Epoch 6000, Train Loss: 0.2877848744392395, Val Loss: 0.3530832827091217
+Epoch 8000, Train Loss: 0.1327602118253708, Val Loss: 0.1702311635017395
+Epoch 10000, Train Loss: 0.07492630928754807, Val Loss: 0.09893770515918732
+Epoch 12000, Train Loss: 0.0494752898812294, Val Loss: 0.06670524179935455
+Experiment 10: Stopping early: Validation loss < 0.2 at epoch 12461
+
+Experiment Results Table:
+
+ Experiment  Mean Train Loss  Std Dev Train Loss  Epochs Until Stop  Final Train Loss  Final Val Loss
+          1         0.379882            0.237837              16236          0.049185        0.065924
+          2         0.361069            0.234637              15280          0.050601        0.066918
+          3         0.355831            0.235183              15167          0.050333        0.067252
+          4         0.334859            0.230112              13923          0.052579        0.069231
+          5         0.378022            0.241028              16367          0.051214        0.068165
+          6         0.335532            0.268285              11827          0.048927        0.064718
+          7         0.393109            0.248370              15408          0.043888        0.062462
+          8         0.316720            0.249809              12456          0.050234        0.066880
+          9         0.362215            0.234070              15471          0.049559        0.066242
+         10         0.330724            0.255997              12461          0.045642        0.061788
+
+Summary Table (Percentage Std Dev and Mean):
+
+           Metric         Mean  Std Dev %
+Epochs Until Stop 14459.600000  11.553302
+ Final Train Loss     0.049216   5.283649
+   Final Val Loss     0.065958   3.582857
+
+Total Failures: 0
+
+-------------------------------------------------------------------------
+Running Configuration 9: {'num_hidden': 1, 'bypass': True, 'l_rate': 0.1, 'truth_table_function': <function print_hidden_truth_table at 0x000002003FBC68E0>}
+
+
+Starting Experiment 1...
+
+Epoch 0, Train Loss: 1.4282087087631226, Val Loss: 1.5524561405181885
+Epoch 2000, Train Loss: 0.07114249467849731, Val Loss: 0.10976336896419525
+Epoch 4000, Train Loss: 0.022491727024316788, Val Loss: 0.04460395500063896
+Experiment 1: Stopping early: Validation loss < 0.2 at epoch 4315
+
+Truth Table for Hidden Neuron:
+Input                Hidden Output       
+------------------------------------------------------------
+[0.0, 0.0]           [0.028188560158014297]
+[0.0, 1.0]           [0.9909680485725403]
+[1.0, 0.0]           [0.9909622073173523]
+[1.0, 1.0]           [0.999997615814209] 
+
+Starting Experiment 2...
+
+Epoch 0, Train Loss: 1.950050711631775, Val Loss: 1.9593695402145386
+Epoch 2000, Train Loss: 0.0422610379755497, Val Loss: 0.07277984917163849
+Experiment 2: Stopping early: Validation loss < 0.2 at epoch 3676
+
+Truth Table for Hidden Neuron:
+Input                Hidden Output       
+------------------------------------------------------------
+[0.0, 0.0]           [0.028126483783125877]
+[0.0, 1.0]           [0.9909817576408386]
+[1.0, 0.0]           [0.9909847974777222]
+[1.0, 1.0]           [0.999997615814209] 
+
+Starting Experiment 3...
+
+Epoch 0, Train Loss: 1.306778073310852, Val Loss: 1.2952303886413574
+Epoch 2000, Train Loss: 0.04690714180469513, Val Loss: 0.0789853185415268
+Experiment 3: Stopping early: Validation loss < 0.2 at epoch 3833
+
+Truth Table for Hidden Neuron:
+Input                Hidden Output       
+------------------------------------------------------------
+[0.0, 0.0]           [0.02813742123544216]
+[0.0, 1.0]           [0.9909905195236206]
+[1.0, 0.0]           [0.9909703731536865]
+[1.0, 1.0]           [0.999997615814209] 
+
+Starting Experiment 4...
+
+Epoch 0, Train Loss: 1.6918277740478516, Val Loss: 1.8217971324920654
+Epoch 2000, Train Loss: 0.060493774712085724, Val Loss: 0.09651686251163483
+Epoch 4000, Train Loss: 0.021240506321191788, Val Loss: 0.04268248379230499
+Experiment 4: Stopping early: Validation loss < 0.2 at epoch 4153
+
+Truth Table for Hidden Neuron:
+Input                Hidden Output       
+------------------------------------------------------------
+[0.0, 0.0]           [0.02811892330646515]
+[0.0, 1.0]           [0.9909815192222595]
+[1.0, 0.0]           [0.9909893870353699]
+[1.0, 1.0]           [0.999997615814209] 
+
+Starting Experiment 5...
+
+Epoch 0, Train Loss: 1.4549002647399902, Val Loss: 1.5823585987091064
+Epoch 2000, Train Loss: 0.04570188745856285, Val Loss: 0.07739487290382385
+Experiment 5: Stopping early: Validation loss < 0.2 at epoch 3787
+
+Truth Table for Hidden Neuron:
+Input                Hidden Output       
+------------------------------------------------------------
+[0.0, 0.0]           [0.028310755267739296]
+[0.0, 1.0]           [0.9909319877624512]
+[1.0, 0.0]           [0.9909301400184631]
+[1.0, 1.0]           [0.999997615814209] 
+
+Starting Experiment 6...
+
+Epoch 0, Train Loss: 1.828472375869751, Val Loss: 1.8212496042251587
+Epoch 2000, Train Loss: 0.06674066931009293, Val Loss: 0.10435827821493149
+Epoch 4000, Train Loss: 0.021992739289999008, Val Loss: 0.0438435822725296
+Experiment 6: Stopping early: Validation loss < 0.2 at epoch 4251
+
+Truth Table for Hidden Neuron:
+Input                Hidden Output       
+------------------------------------------------------------
+[0.0, 0.0]           [0.028361301869153976]
+[0.0, 1.0]           [0.9909189939498901]
+[1.0, 0.0]           [0.9909151196479797]
+[1.0, 1.0]           [0.9999974966049194]
+
+Starting Experiment 7...
+
+Epoch 0, Train Loss: 1.477250337600708, Val Loss: 1.4121904373168945
+Epoch 2000, Train Loss: 0.060064204037189484, Val Loss: 0.09599053859710693
+Epoch 4000, Train Loss: 0.021176395937800407, Val Loss: 0.04258592799305916
+Experiment 7: Stopping early: Validation loss < 0.2 at epoch 4144
+
+Truth Table for Hidden Neuron:
+Input                Hidden Output       
+------------------------------------------------------------
+[0.0, 0.0]           [0.028276048600673676]
+[0.0, 1.0]           [0.9909421801567078]
+[1.0, 0.0]           [0.9909406900405884]
+[1.0, 1.0]           [0.999997615814209] 
+
+Starting Experiment 8...
+
+Epoch 0, Train Loss: 1.564911127090454, Val Loss: 1.5639631748199463
+Epoch 2000, Train Loss: 0.15039005875587463, Val Loss: 0.17009000480175018
+Epoch 4000, Train Loss: 0.03459109365940094, Val Loss: 0.043511807918548584
+Experiment 8: Stopping early: Validation loss < 0.2 at epoch 4713
+
+Truth Table for Hidden Neuron:
+Input                Hidden Output       
+------------------------------------------------------------
+[0.0, 0.0]           [0.9842275977134705]
+[0.0, 1.0]           [0.018337327986955643]
+[1.0, 0.0]           [0.9999978542327881]
+[1.0, 1.0]           [0.9928969740867615]
+
+Starting Experiment 9...
+
+Epoch 0, Train Loss: 1.3824462890625, Val Loss: 1.4342291355133057
+Epoch 2000, Train Loss: 0.06789454817771912, Val Loss: 0.10576315224170685
+Epoch 4000, Train Loss: 0.022135211154818535, Val Loss: 0.04405882582068443
+Experiment 9: Stopping early: Validation loss < 0.2 at epoch 4277
+
+Truth Table for Hidden Neuron:
+Input                Hidden Output       
+------------------------------------------------------------
+[0.0, 0.0]           [0.028151290491223335]
+[0.0, 1.0]           [0.9909682869911194]
+[1.0, 0.0]           [0.9909847974777222]
+[1.0, 1.0]           [0.999997615814209] 
+
+Starting Experiment 10...
+
+Epoch 0, Train Loss: 1.8571988344192505, Val Loss: 1.831337809562683
+Epoch 2000, Train Loss: 0.044910728931427, Val Loss: 0.07633707672357559
+Experiment 10: Stopping early: Validation loss < 0.2 at epoch 3760
+
+Truth Table for Hidden Neuron:
+Input                Hidden Output       
+------------------------------------------------------------
+[0.0, 0.0]           [0.02823871746659279]
+[0.0, 1.0]           [0.990946888923645] 
+[1.0, 0.0]           [0.9909551739692688]
+[1.0, 1.0]           [0.999997615814209] 
+
+Experiment Results Table:
+
+ Experiment  Mean Train Loss  Std Dev Train Loss  Epochs Until Stop  Final Train Loss  Final Val Loss
+          1         0.219929            0.266720               4315          0.020261        0.041163
+          2         0.136908            0.196652               3676          0.020218        0.041096
+          3         0.158597            0.217421               3833          0.020208        0.041081
+          4         0.200745            0.255485               4153          0.020219        0.041097
+          5         0.154421            0.214006               3787          0.020258        0.041160
+          6         0.213048            0.263179               4251          0.020254        0.041155
+          7         0.199187            0.252534               4144          0.020217        0.041097
+          8         0.272533            0.281904               4713          0.026866        0.034508
+          9         0.214282            0.263017               4277          0.020209        0.041082
+         10         0.150678            0.211332               3760          0.020270        0.041177
+
+Summary Table (Percentage Std Dev and Mean):
+
+           Metric        Mean  Std Dev %
+Epochs Until Stop 4090.900000   7.919560
+ Final Train Loss    0.020898  10.034709
+   Final Val Loss    0.040462   5.170765
+
+Total Failures: 0
