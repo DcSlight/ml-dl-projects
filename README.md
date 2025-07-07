@@ -14,7 +14,7 @@ Implemented and compared multiple neural network architectures on the MNIST data
 - Convolutional neural networks with max pooling and dropout
 - Achieved ~99% validation accuracy
 
-[More details in the folder README](./convolution/README.md)
+[More details in the folder README](./Convolution/README.md)
 
 ---
 
